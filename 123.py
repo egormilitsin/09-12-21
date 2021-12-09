@@ -30,8 +30,7 @@ class polka:
 
 
 
-polka1 = polka("tree", books)
-print(polka1)
+
 
 
 
