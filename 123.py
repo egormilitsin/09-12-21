@@ -23,10 +23,11 @@ class material(object):
     material2 = "tree"
     material3 = "black tree"
 
-class polka(books,material):
-    def __init__(self,material):
+class polka:
+    def __init__(self,material, books):
         self.material = material
-        books = []
+        self.books = books
+
 
 
 polka1 = polka("tree", books)
